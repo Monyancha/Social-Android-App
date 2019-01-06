@@ -1,18 +1,8 @@
-# \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \] Plaid 2.0 
-
-Rewriting Plaid using [Android Architecture Components](https://developer.android.com/topic/libraries/architecture/), in Kotlin. 
-
-🛑 During the initial development stage, we're not accepting external PRs. 🛑
-
-👍 Comments and new issues created are welcomed. 
-
-[![CircleCI](https://circleci.com/gh/nickbutcher/plaid/tree/master.svg?style=shield)](https://circleci.com/gh/nickbutcher/plaid/tree/master)
-
 ### Background
 
-Plaid was written with one big goal: showcase material design in Android in a real application. While Plaid successfully achieved its goal, from an architecture point of view, it lacks all features that would make it a modular, scalable, testable and maintainable app: with UI logic in Android classes, no tests and only one module. 
-Plaid represents a great real world app example: it provides a fairly complex set of functionalities, it has technical debt, it has features that have to be dealt with as APIs are being removed.
-All of these problems are encountered by many projects in the Android community and therefore, make Plaid a suitable showcase for all the advantages that architecture components bring. 
+Social App was written with one big goal: showcase material design in Android in a real application. While the app successfully achieved its goal, from an architecture point of view, it lacks all features that would make it a modular, scalable, testable and maintainable app: with UI logic in Android classes, no tests and only one module. 
+The App represents a great real world app example: it provides a fairly complex set of functionalities, it has technical debt, it has features that have to be dealt with as APIs are being removed.
+All of these problems are encountered by many projects in the Android community and therefore, make the app a suitable showcase for all the advantages that architecture components bring. 
 
 #### Read more
 
